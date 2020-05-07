@@ -9,9 +9,9 @@
 }
 /*estilizando e posicionando os id do site*/
 body{
-	/*background-color: black;fundo de todo site a cor preta que aparece*/
-	background-image: url('https://cdn.pixabay.com/photo/2020/04/10/16/39/composing-5026654__340.jpg');
-	background-position: absolute;
+	background-color: #22142b;
+	/*background-image: url('https://cdn.pixabay.com/photo/2020/04/10/16/39/composing-5026654__340.jpg');
+	background-position: absolute;*/
 	
 
 	

@@ -22,13 +22,13 @@
                     <span class="data">05/05/2020</span>
                 </div>                
     		</div>
-            <div id="postagens_recentes">
+          <!--  <div id="postagens_recentes">
                     <h1 class="titulos">Trabalhos recentes</h1>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXGGYPg6UMrQmHsiSe1H0gsSwCqwM2y6Y42j32JA0HArUWGfoO&usqp=CAU" class="imagem">
                     <h1 class="titulos"><a href="#">Titulo dos arquivos recentes</a></h1>
                     <span>ok</span>
                     <span class="data">05/05/2020</span>
-                </div>
+                </div>-->
             </div>
     		<div id="rodape">
     			<?php include "rodape.php";?>
