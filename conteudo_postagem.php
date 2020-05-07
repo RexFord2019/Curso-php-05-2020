@@ -16,6 +16,8 @@
 </div>
 <div id="recentes">
 	<div id="postagens_recentes">
+	<img src="https://manual3.jvckenwood.com/accessory/headphones/contents/ha-et90bt/pt/fig/indicator_TWS_JEAWILfshrzbjg.gif"
+    width="55px" height="25px">	
 	<h1 class="titulos">Recentes</h1>
 	<h1 class="titulos"><a href="#">Titulo dos arquivos recentes</a></h1>
 	<span></span>

@@ -6,8 +6,8 @@ $email    = $_POST ['email'];
 $senha    = $_POST ['senha'];
 $resenha  = $_POST ['repetesenha'];
 $lembrete = $_POST ['lembrete'];
-$foto     = $_FILES['foto'] ['name'];
-$tipo     = $_FILES['foto'] ['type'];
+$foto     = $_FILES['foto']['name'];
+$tipo     = $_FILES['foto']['type'];
 
 
 echo "nome   :    $nome<br>";
