@@ -1,0 +1,57 @@
+/*ARQUIVO CSS - FORMATAÇÃO DO SITE*/
+*{  /* O* é usado no geral do texto*/
+	padding: 0;
+	margin: 0;
+	font-size: 19px;
+	text-decoration: none;
+	color: #333;
+	list-style: none; /*tira a bolinha que vem antes dos itens da lista como o menu*/
+}
+/*estilizando e posicionando os id do site*/
+body{
+	/*background-color: black;fundo de todo site a cor preta que aparece*/
+	background-image: url('https://cdn.pixabay.com/photo/2020/04/10/16/39/composing-5026654__340.jpg');
+	background-position: absolute;
+	
+
+	
+
+}
+#geral{max-width: 1200px;height:auto; overflow: hidden;margin: 0 auto;}
+
+/*---------------------topo do site--------------------------*/
+#topo{width: 100%;height: 200px;float: left;background-color: /*#ddf*/ white}
+.logo{width: 355px;height: auto;float: left; margin: 20px;}
+.links_top{float: right;padding: 10px;margin: 5px 2px; background-color: #145;color: #fff;border-radius: 10px; margin-top: 80px}
+.links_top:hover{background-color: #59f;}
+/*---------------------fim topo do site--------------------------*/
+
+/*---------------------menu do site--------------------------*/
+#menu{width: 100%;height: 50px;float: left;background-color: #145}
+.links_menu li a { float: left;padding: 15px; background-color: #145; color: #fff; margin-left: 15px }/*as cores da escrita e fundo*/
+.links_menu li a:hover{background-color: #59f;} /*hover pseudo classe que altera a cor do item ao posicionar o cursor*/
+/*---------------------fim menu do site--------------------------*/
+
+/*---------------------conteudo do site--------------------------*/
+#conteudo{width: 100%;min-height: 650px;float: left;background-color: #fff; }
+#conteudo_principal{width: 70%; min-height: 600px; float: left; border:1px solid #ccc; margin: 20px 10px;}
+#recentes{width: 26%; min-height: 600px; float: left; border:1px solid #ccc; margin: 20px 10px;}
+.postagens{width: 100%; height: auto;overflow: hidden;float: left;margin: 10px 0 30px 0; border:0px solid #f00;}
+.titulos{font-size: 20px; font-family: calibri, sans-serif; float: left;width: 96%;margin:10px 2%;}
+.imagem{width: 100%;height: auto;float: left;margin: 5px 0;}
+.paragrafo,.data{font-size: 16px; color: #333;float: left; width: 96%; font-family: calibri,sans-serif; margin: 10px 2%;}
+.postagens_recentes{width: 100%; height: auto;overflow: hidden;float: left;margin: 10px 0 30px 0; border:0px solid #f00;}
+.titulos a:hover {color:#59f;}
+/*---------------------página de contato-----------------------------*/
+.campos{width: 80%;margin: 10px 10%;height: 30px;float: left; padding: 2px; font-size: 16px;}
+.campo2{width: 80%;margin: 10px 10%;height: 150px;float: left; padding: 2px; font-size: 16px;}
+.bt_enviar{float: left;margin-left: 10%; padding: 5px; font-size: 16px;}
+.legenda{float: left;margin-left: 10%; font-size: 16px;}
+.logo_contato{width: auto; height: 155px; margin-left: 35%; font-size: 16px; position: center;}
+/*---------------------fim página de contato-----------------------------*/
+/*---------------------fim conteudo do site--------------------------*/
+
+/*---------------------rodape do site--------------------------*/
+#rodape{width: 100%;height: 50px;float: left;background-color: #ddf;}
+.direitos{text-align: center; font-size: 19px; padding: 15px;}
+/*---------------------fim rodape do site--------------------------*/
